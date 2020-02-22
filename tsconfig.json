@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2015",
+    "lib": [
+      "dom",
+      "es2015",
+      "es2016",
+      "es2017",
+      "es2018",
+      "esnext"
+    ],
+    "inlineSourceMap": false,
+    "outDir": "./bin",
+    "baseUrl": ".",
+    "sourceMap": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/dist",
+    "**/*.d.ts"
+  ]
+}
