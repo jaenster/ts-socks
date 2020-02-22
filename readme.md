@@ -7,7 +7,7 @@ No dependencies
 
 # Javascript
 ```javascript
-const Socks5 = require('socks5-ts');
+const Socks5 = require('ts-socks');
 
 new Socks5({
 	options: {
