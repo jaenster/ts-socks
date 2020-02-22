@@ -5,7 +5,7 @@ A simple socks5 server written in typescript.
 
 No dependencies
 
-# Usage js  
+# Javascript
 ```javascript
 const Socks5 = require('socks5-ts');
 
@@ -22,7 +22,7 @@ new Socks5({
 	proxy.remote.pipe(proxy.orgin);
 });
 ```
-
+# Typescript
 ```typescript
 import Socks5 from 'ts-socks';
 
